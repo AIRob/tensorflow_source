@@ -73,7 +73,7 @@ for j in range(10000):
     overallError = 0            #每次把总误差清零
     
     
-    layer_2_deltas = list()     #存储每个时间点输出层的误差\
+    layer_2_deltas = list()     #存储每个时间点输出层的误差
     layer_1_values = list()     #存储每个时间点隐藏层的值
     
     layer_1_values.append(np.ones(hidden_dim) * 0.1)    #一开始没有隐藏层，所以初始化一下原始值为 0.1
